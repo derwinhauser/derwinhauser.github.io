@@ -1,10 +1,46 @@
+/*color palette*/
+:root {
+    --ink-black: #0d1b2aff;
+    --prussian-blue: #1b263bff;
+    --dusk-blue: #415a77ff;
+    --dusty-denim: #778da9ff;
+    --alabaster-grey: #e0e1ddff;
+}
+
+/*reset*/
 body, header, nav, main, footer, img, h1, ul, section, figure, figcaption, aside {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
 
-nav li a {
-    display: block;
+body{
+    background-color: var(--alabaster-grey);
+    color:var(--ink-black);
+}
+
+
+nav {
+    background-color: var(--prussian-blue);
     text-align: center;
+    padding: 14px 20px;
+}
+
+nav a {
+    font-size: 18px;
+    color: var(--dusty-denim);
+    background-color: var(--ink-black);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-color: var(--alabaster-grey);
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: var(--ink-black);
+    background-color: var(--alabaster-grey);
 }
