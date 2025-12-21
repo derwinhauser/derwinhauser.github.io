@@ -1,0 +1,10 @@
+body, header, nav, main, footer, img, h1, ul, section, figure, figcaption, aside {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+}
