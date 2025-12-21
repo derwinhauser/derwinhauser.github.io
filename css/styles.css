@@ -14,16 +14,22 @@ body, header, nav, main, footer, img, h1, ul, section, figure, figcaption, aside
 	border: 0;
 }
 
-body{
-    background-color: var(--alabaster-grey);
-    color:var(--ink-black);
+header {
+    background-color: var(--dusk-blue);
+    color: var(--alabaster-grey);
+    text-align: center;
 }
 
+header h1 {
+    padding-left: 0px;
+    margin-left: 0px;
+}
 
 nav {
     background-color: var(--prussian-blue);
     text-align: center;
     padding: 14px 20px;
+    margin-bottom: 0px;
 }
 
 nav a {
@@ -44,5 +50,21 @@ nav a {
 nav a:hover {
     color: var(--ink-black);
     background-color: var(--alabaster-grey);
-    font-size: 21px;
+}
+
+body{
+    background-color: var(--alabaster-grey);
+    color:var(--ink-black);
+}
+
+main {
+    font-size: 18px;
+    margin: 10px;
+}
+
+footer {
+    background-color: var(--dusk-blue);
+    color: var(--alabaster-grey);
+    text-align: center;
+    padding: 14px 20px;
 }

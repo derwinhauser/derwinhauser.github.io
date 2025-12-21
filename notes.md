@@ -18,3 +18,5 @@ Color Pallet 3:
     --dusk-blue: #415a77ff;
     --dusty-denim: #778da9ff;
     --alabaster-grey: #e0e1ddff;
+
+Add gallery Page
