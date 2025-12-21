@@ -21,7 +21,14 @@ Color Pallet 3:
 
 **TODO**
 * Add gallery Page (make a creative layout of favorite photos)
-* Fix Resume display
-* Add blackjack program project to projects page
-* Add Education details on education page (create a tags around important classes that link to pages further explain what skills were gained from that class)
-* Under projects, show completed projects and in progress projects
+
+**Resume**
+Fix layout
+
+**Education**
+* Add Education details (create <a> tags around important classes that link to pages/dropdowns that further explain what skills were gained from that class)
+* add class with description, hyperlink teacher's name to their personal website if possible.
+
+**Projects**
+* Add blackjack program project to page
+* Show completed projects and in progress projects
