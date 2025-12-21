@@ -19,4 +19,8 @@ Color Pallet 3:
     --dusty-denim: #778da9ff;
     --alabaster-grey: #e0e1ddff;
 
-Add gallery Page
+**TODO**
+* Add gallery Page (make a creative layout of favorite photos)
+* Fix Resume display
+* Add blackjack program project to projects page
+* Add Education details on education page (create a tags around important classes that link to pages further explain what skills were gained from that class)
