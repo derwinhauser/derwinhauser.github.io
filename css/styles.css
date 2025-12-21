@@ -8,10 +8,22 @@
 }
 
 /*reset*/
-body, header, nav, main, footer, img, h1, ul, section, figure, figcaption, aside {
+html, body, header, nav, main, footer, img, h1, ul, section, figure, figcaption, aside {
 	margin: 0;
 	padding: 0;
 	border: 0;
+}
+
+body{
+    background-color: var(--alabaster-grey);
+    color:var(--ink-black);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    flex-grow: 1;
 }
 
 header {
@@ -52,14 +64,23 @@ nav a:hover {
     background-color: var(--alabaster-grey);
 }
 
-body{
-    background-color: var(--alabaster-grey);
-    color:var(--ink-black);
-}
-
 main {
     font-size: 18px;
     margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 250px auto;
+    gap: 35px;
+}
+
+#picture h2, #picture h3 {
+    margin: 1.5% auto;
+}
+
+#bio ul {
+    margin-left: 40px;
 }
 
 footer {
