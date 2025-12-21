@@ -38,9 +38,11 @@ nav a {
     border-width: 1px;
     border-radius: 7px;
     padding: 10px;
+    margin: auto .5%;
 }
 
 nav a:hover {
     color: var(--ink-black);
     background-color: var(--alabaster-grey);
+    font-size: 21px;
 }
