@@ -24,3 +24,4 @@ Color Pallet 3:
 * Fix Resume display
 * Add blackjack program project to projects page
 * Add Education details on education page (create a tags around important classes that link to pages further explain what skills were gained from that class)
+* Under projects, show completed projects and in progress projects
