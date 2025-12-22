@@ -23,7 +23,7 @@ Color Pallet 3:
 * Add gallery Page (make a creative layout of favorite photos)
 
 **Resume**
-Fix layout
+* Fix layout
 
 **Education**
 * Add Education details (create <a> tags around important classes that link to pages/dropdowns that further explain what skills were gained from that class)
@@ -32,3 +32,4 @@ Fix layout
 **Projects**
 * Add blackjack program project to page
 * list completed projects and in progress projects
+* Add public repo to github for blackjack program
