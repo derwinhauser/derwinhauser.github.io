@@ -83,6 +83,14 @@ main {
     margin-left: 40px;
 }
 
+#completed-courses table {
+    border-style: solid;
+}
+#completed-courses table td {
+    border-style: none;
+    padding: 10px;
+}
+
 footer {
     background-color: var(--dusk-blue);
     color: var(--alabaster-grey);
