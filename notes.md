@@ -20,7 +20,6 @@ Color Pallet 3:
     --alabaster-grey: #e0e1ddff;
 
 **TODO**
-* Add gallery Page (make a creative layout of favorite photos)
 
 **Resume**
 * Fix layout
@@ -45,3 +44,6 @@ Color Pallet 3:
 
 **About**
 * make index page display about page instead of relying on copying
+
+**Gallery**
+* Add Photos/collage
