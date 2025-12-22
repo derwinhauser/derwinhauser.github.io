@@ -31,4 +31,4 @@ Fix layout
 
 **Projects**
 * Add blackjack program project to page
-* Show completed projects and in progress projects
+* list completed projects and in progress projects
