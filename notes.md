@@ -35,6 +35,7 @@ Color Pallet 3:
     * Eng110
     * REL103
     * VSJ100
+* add classes in progress
 
 
 **Projects**
@@ -43,7 +44,6 @@ Color Pallet 3:
 * Add public repo to github for blackjack program
 
 **About**
-* make index page display about page instead of relying on copying
 
 **Gallery**
 * Add Photos/collage
