@@ -92,6 +92,11 @@ main {
     height: auto;
 }
 
+#gallery img {
+    display: grid;
+    width: 100%;
+}
+
 /*Mobile table styles*/
 table {
     margin: 10px auto;
@@ -159,6 +164,23 @@ footer {
         width: 700px;
     }
 
+    #gallery h1{
+        text-align: center;
+    }
+
+    #gallery-photos {
+        column-count: 3;
+        column-gap: 10px;
+        margin: auto 10%;
+        margin-bottom: 10px;
+    }
+
+    #gallery img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
     .image {
         width: 250px;
         height: auto;
@@ -169,6 +191,7 @@ footer {
         grid-template-columns: 250px auto;
         gap: 35px;
     }
+
     #about img {
         margin-top: 20px;
     }
