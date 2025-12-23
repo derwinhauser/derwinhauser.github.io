@@ -123,8 +123,111 @@ footer {
     padding: 4px 20px;
 }
 
-/* Media query for screens wider than 769px (desktops) */
-@media only screen and (min-width: 769px) {
+/*Media Query for screens wider than 768px (Tablets)*/
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    body {
+        text-align: left;
+    }
+
+    nav {
+        padding: 14px 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        border-style: solid;
+        border-color: var(--alabaster-grey);
+        border-width: 1px;
+        border-radius: 7px;
+        margin: auto .5%;
+    }
+
+    nav a:hover {
+        color: var(--ink-black);
+        background-color: var(--alabaster-grey);
+    }
+
+    #resume {
+        text-align: center;
+    }
+
+    #resume img {
+        width: 700px;
+    }
+
+    #gallery h1{
+        text-align: center;
+    }
+
+    #gallery-photos {
+        column-count: 2;
+        column-gap: 10px;
+        margin: auto 5%;
+        margin-bottom: 10px;
+    }
+
+    #gallery img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .image {
+        width: 250px;
+        height: auto;
+    }
+
+    #about{
+        display: grid;
+        grid-template-columns: 250px auto;
+        gap: 35px;
+    }
+
+    #about img {
+        margin-top: 20px;
+    }
+
+    #picture h2, #picture h3 {
+        margin: 1.5% auto;
+    }
+    /* Table rules for desktop */
+    thead {
+        text-align: center;
+        display: table-header-group;
+    }
+
+    table {
+        border-style: solid;
+    }
+
+    tr {
+        display: table-row;
+        border-style: solid;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .course-name {
+        font-weight: normal;
+    }
+
+    footer {
+        padding: 10px 20px;
+    }
+}
+
+/* Media query for screens wider than 1000px (desktops) */
+@media only screen and (min-width: 1000px) {
     
     .mobile {
         display: none;
