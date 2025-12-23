@@ -64,11 +64,6 @@ nav a {
     margin: 2px 0px;
 }
 
-nav a:hover {
-    color: var(--ink-black);
-    background-color: var(--alabaster-grey);
-}
-
 main {
     font-size: 18px;
     margin: 0px 10px;
