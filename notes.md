@@ -20,9 +20,11 @@ Color Pallet 3:
     --alabaster-grey: #e0e1ddff;
 
 **TODO**
+* Add hover to mobile layout to see if it changes click
 
 **Resume**
-* Fix layout
+* Update actual resume document (classes, jobs, skills, etc.)
+* Add Github to Resume
 
 **Education**
 * Add Education details (create <a> tags around important classes that link to pages/dropdowns that further explain what skills were gained from that class)
@@ -39,11 +41,12 @@ Color Pallet 3:
 
 
 **Projects**
-* Add blackjack program project to page
-* list completed projects and in progress projects
 * Add public repo to github for blackjack program
+* Add blackjack program project to page
+* Add CakePopDemonHunters to project page
+* list completed projects and in progress projects
+
 
 **About**
 
 **Gallery**
-* Add Photos/collage
