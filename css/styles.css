@@ -130,7 +130,7 @@ footer {
     }
 
     .desktop {
-        display: block;
+        display: none;
     }
 
     body {
