@@ -8,10 +8,18 @@
 }
 
 /*reset*/
-html, body, header, nav, main, footer, img, h1, ul, section, figure, figcaption, aside {
-	margin: 0;
-	padding: 0;
-	border: 0;
+html, body, header, nav, main, footer {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.mobile {
+    display: block;
+}
+
+.desktop {
+    display: none;
 }
 
 body{
@@ -20,6 +28,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    text-align: center;
 }
 
 .content-wrapper {
@@ -33,6 +42,8 @@ header {
 }
 
 header h1 {
+    padding-top: 20px;
+    margin-top: 0px;
     padding-left: 0px;
     margin-left: 0px;
 }
@@ -40,60 +51,156 @@ header h1 {
 nav {
     background-color: var(--prussian-blue);
     text-align: center;
-    padding: 14px 20px;
-    margin-bottom: 0px;
 }
 
 nav a {
     font-size: 18px;
     color: var(--dusty-denim);
     background-color: var(--ink-black);
-    display: inline-block;
+    display: block;
     text-align: center;
     text-decoration: none;
-    border-style: solid;
-    border-color: var(--alabaster-grey);
-    border-width: 1px;
-    border-radius: 7px;
     padding: 10px;
-    margin: auto .5%;
-}
-
-nav a:hover {
-    color: var(--ink-black);
-    background-color: var(--alabaster-grey);
+    margin: 2px 0px;
 }
 
 main {
     font-size: 18px;
-    margin: 10px;
+    margin: 0px 10px;
 }
 
-#about{
-    display: grid;
-    grid-template-columns: 250px auto;
-    gap: 35px;
+.image {
+    width: 100%;
+    height: auto;
 }
 
 #picture h2, #picture h3 {
-    margin: 1.5% auto;
+    margin: auto auto;
+}
+
+#bio {
+    text-align: left;
 }
 
 #bio ul {
     margin-left: 40px;
 }
 
-#completed-courses table {
-    border-style: solid;
+#resume img {
+    text-align: center;
+    width: 350px;
+    height: auto;
 }
-#completed-courses table td {
-    border-style: none;
-    padding: 10px;
+
+/*Mobile table styles*/
+table {
+    margin: 10px auto;
+}
+
+thead {
+    display: none;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.course-name {
+    font-weight: bold;
 }
 
 footer {
     background-color: var(--dusk-blue);
     color: var(--alabaster-grey);
     text-align: center;
-    padding: 14px 20px;
+    padding: 4px 20px;
+}
+
+/* Media query for screens wider than 769px (desktops) */
+@media only screen and (min-width: 769px) {
+    
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    body {
+        text-align: left;
+    }
+
+    nav {
+        padding: 14px 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        border-style: solid;
+        border-color: var(--alabaster-grey);
+        border-width: 1px;
+        border-radius: 7px;
+        margin: auto .5%;
+    }
+
+    nav a:hover {
+        color: var(--ink-black);
+        background-color: var(--alabaster-grey);
+    }
+
+    #resume {
+        text-align: center;
+    }
+
+    #resume img {
+        width: 700px;
+    }
+
+    .image {
+        width: 250px;
+        height: auto;
+    }
+
+    #about{
+        display: grid;
+        grid-template-columns: 250px auto;
+        gap: 35px;
+    }
+    #about img {
+        margin-top: 20px;
+    }
+
+    #picture h2, #picture h3 {
+        margin: 1.5% auto;
+    }
+    /* Table rules for desktop */
+    thead {
+        text-align: center;
+        display: table-header-group;
+    }
+
+    table {
+        border-style: solid;
+    }
+
+    tr {
+        display: table-row;
+        border-style: solid;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .course-name {
+        font-weight: normal;
+    }
+
+    footer {
+        padding: 10px 20px;
+    }
+
 }
