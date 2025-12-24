@@ -219,6 +219,7 @@ footer {
 
     table {
         border-style: solid;
+        margin: 0px 5% 15px 5%;
     }
 
     tr {
@@ -238,6 +239,10 @@ footer {
 
     #projects a:hover {
         color: var(--dusty-denim);
+    }
+
+    #projects td {
+        padding: 10px;
     }
 
     .course-name {
