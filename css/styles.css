@@ -219,7 +219,7 @@ footer {
 
     table {
         border-style: solid;
-        margin: 0px 5% 15px 5%;
+        margin: 0px 5% 0px 5%;
     }
 
     tr {
@@ -251,6 +251,7 @@ footer {
 
     footer {
         padding: 10px 20px;
+        margin-top: 15px;
     }
 }
 
