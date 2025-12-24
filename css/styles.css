@@ -116,6 +116,19 @@ tr {
     font-weight: bold;
 }
 
+#projects h2{
+    margin: 5px;
+}
+
+#projects a{
+    color: var(--ink-black);
+
+}
+
+#projects .course-name {
+    margin: 5px 0px;
+}
+
 footer {
     background-color: var(--dusk-blue);
     color: var(--alabaster-grey);
@@ -123,8 +136,8 @@ footer {
     padding: 4px 20px;
 }
 
-/*Media Query for screens wider than 768px (Tablets)*/
-@media only screen and (min-width: 768px) {
+/*Media Query for screens wider than 650px (Tablets)*/
+@media only screen and (min-width: 650px) {
     .mobile {
         display: none;
     }
@@ -217,6 +230,16 @@ footer {
         padding: 10px;
     }
 
+    #projects a {
+        border: none;
+        background: none;
+        padding: 0px;
+    }
+
+    #projects a:hover {
+        color: var(--dusty-denim);
+    }
+
     .course-name {
         font-weight: normal;
     }
@@ -252,11 +275,6 @@ footer {
         border-width: 1px;
         border-radius: 7px;
         margin: auto .5%;
-    }
-
-    nav a:hover {
-        color: var(--ink-black);
-        background-color: var(--alabaster-grey);
     }
 
     #resume {
@@ -319,6 +337,10 @@ footer {
 
     td {
         padding: 10px;
+    }
+
+    #projects th:nth-child(1), #projects td:nth-child(1) {
+        width: 115px;
     }
 
     .course-name {
