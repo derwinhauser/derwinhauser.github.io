@@ -19,6 +19,13 @@ Color Pallet 3:
     --dusty-denim: #778da9ff;
     --alabaster-grey: #e0e1ddff;
 
+**Ideas**
+* Scrape elite prospects stats
+* add something fun / more interactive
+* Add actual transcripts
+* add linkdin/handshake somewhere
+* buy a domain
+
 **TODO**
 
 **Resume**
@@ -37,6 +44,7 @@ Color Pallet 3:
     * REL103
     * VSJ100
 * add classes in progress
+* add planned classes
 
 
 **Projects**
@@ -44,5 +52,6 @@ Color Pallet 3:
 
 
 **About**
+* Add interests/hobbies
 
 **Gallery**
